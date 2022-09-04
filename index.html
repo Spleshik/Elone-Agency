@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elone Agency</title>
+    <link rel="stylesheet" href="/src/css/style.css">
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <div class="logo"><img src="img/logo.png" alt="logo"></div>
+        <ul>
+            <li class="logo_txt"> <a href="#">Дизайн</a></li>
+            <li class="logo_txt"> <a href="#">Разработка</a></li>
+            <li class="logo_txt"><a href="#">SMM</a></li>
+            <li class="logo_txt"><a href="#">Портфолио</a></li>
+            <li class="logo_txt"><a href="#">Блог</a></li>
+            <li class="logo_txt"><a href="#">О нас</a></li>
+        </ul>
+        
+        <button class="btn">Хочу начать</button>
+        <img src="img/planet.png" alt="world">
+        <div class="leng">UA</div>
+    </div>
+</div>
+<div class="container">
+        <div class="promo">
+        <h1 class="promo_txt">Превращаем ваши идеи в<br/> крутые продукты</h1>
+        <button class="promo_btn">Начнём превращение</button>
+        <img class="promo_img"  src="img/Img_1.png" alt="promo img">
+    </div>
+</div>
+<div class="container">
+    <div class="section_1">
+         <div><img src="img/Img_Design.png" alt="design"></div>
+         <div class="list">
+            <ul>
+                <li class="caption"><h3>Дизайн</h3></li>
+                <li><span>Дизайн Сайтов</span></li>
+                <li><span>Дизайн Лого и Фирменного стиля</span></li>
+                <li><span>Дизайн Интерфейсов UI/UX</span></li>
+                <li><span>Дизайн Мобильных приложений</span></li>
+            </ul>
+        </div>
+        <button class="s_btn">Узнать больше</button>
+       
+    </div>
+</div>
+
+<div class="container">
+    <div class="section_2">
+         <div class="left_img_2"><img src="img/Img_Design.png" alt="design"></div>
+         <div class="list_2">
+            <ul>
+                <li class="caption_2"><h3>Разработка</h3></li>
+                <li><span>Создание сайтов и сложных CRM</span></li>
+                <li><span>Создание интернет магазинов</span></li>
+                <li><span>Создание мобильных приложений</span></li>
+                <li><span>Обслуживание и поддержка сайтов</span></li>
+            </ul>
+        </div>
+        <button class="s_btn_2">Узнать больше</button>
+       
+    </div>
+</div>
+
+<div class="container">
+    <div class="section_3">
+         <div class="left_img_2"><img src="img/Img_SMM.png" alt="design"></div>
+         <div class="list_3">
+            <ul>
+                <li class="caption_3"><h3>SMM</h3></li>
+                <li><span>Продвижение Личной страницы</span></li>
+                <li><span>Продвижение Личной страницы</span></li>
+                <li><span>Создание контента для страниц</span></li>
+                <li><span>Создание контента для страниц</span></li>
+            </ul>
+        </div>
+        <button class="s_btn_3">Узнать больше</button>
+       
+    </div>
+</div>
+<div class="container">
+    <div class="portf">
+    <h3>Портфолио</h3>
+            <div class="myBtnCont">
+            <button class="btn_active" onclick="filterSelection ('all')">Все проекты</button>
+            <button class="btn_portf" onclick="filterSelection ('design')">Дизайн</button>
+            <button class="btn_portf" onclick="filterSelection ('dev')">Разработка</button>
+            <button class="btn_portf" onclick="filterSelection ('SMM')">SMM</button>
+        </div>        
+    </div>
+    <div class="row">
+        <div class="column design">
+            <div class="content">
+                <img src="img/ноут.png" alt="laptop">
+                <h4>Love Goodly</h4>
+                <p>Love Goodly eCommerce Website</p>
+            </div>
+        </div>
+        <div class="column dev">
+            <div class="content">
+                <img src="img/civic 306.png" alt="civic">
+                <h4>Civic</h4>
+                <p>Civic Financial Services</p>
+            </div>
+        </div>
+        <div class="smm">
+            <div class="content">
+                <img src="img/wood.png" alt="wood">
+                <h4>Wedgewood</h4>
+                <p>Real Estate Industry</p>
+            </div>
+        </div>
+    </div>
+    <div class="container"> 
+        <h3 class="b_txt">Блог</h3>
+        <div class="blog">
+            <div class="content">
+                <img src="/img/gamepad.png" alt="gamepad">
+                <h4>The future of 3D design</h4>
+                <p>4 months ago</p>
+            </div>
+            <div class="content">
+                <img src="/img/robot.png" alt="robot">
+                <h4>The future of 3D design</h4>
+                <p>4 months ago</p>
+            </div>
+            <div class="content">
+                <img src="/img/go.png" alt="go">
+                <h4>The future of 3D design</h4>
+                <p>4 months ago</p>
+            </div>
+        </div>
+        <button class="blog_btn">Читать больше</button>
+    </div>
+    <div class="container">
+        <div class="about">
+            <div class="content"></div>
+                <h3 class="about_header">О Нас</h3>
+                    <div >
+                        <p class="about_txt">Идейные соображения высшегопорядка, а также начало<br>  повседневной работы по формированию позиции позволяет оценить <br>значение новых предложений. Не следует, однако забывать, что <br>сложившаяся структура организации представляет собой интересный<br>  эксперимент проверки дальнейшихнаправлений развития.<p></p>
+                        <br><p class="about_txt">Задача организации, в особенности же консультация с<br> широким активом требуют определения и уточнения системы обучения кадров, </p>
+                    </div>
+            <div class="big_logo">
+                <img src="/img/circle.png" alt="big_logo">
+            </div>
+            <button class="btn_us">Больше о Нас</button>
+        </div>
+    </div>
+    </div>
+    <div class="container">
+        <h3 class="header_f" >Контактная форма</h3>
+        <div class="form">
+            <label for="fname"></label>
+            <input class="f_name" type="text" id="fname" name="firstname" placeholder="Ваше Имя..">
+            <label for="email"></label>
+            <input class="f_mail" type="text" id="email" name="email" placeholder="Ваш E-mail">
+            <label for="Введите сообщение"></label>
+            <input class="f_message" type="text" id="message" name="message"
+            placeholder="Текст сообщения">
+        </div>
+        <button class="form_btn">Отправить</button>
+    </div>
+    <div class="container">
+        <div class="contacts">
+            <h3>Контакты</h3>
+            <p>Ukraine, Lviv, Naukova str. 7D, "Optima Plaza"</p>
+            <p>info@elone.agency</p>
+        </div>
+    </div>
+</div>
+
+<script src="/js/script.js"></script>
+</body>
